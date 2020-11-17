@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <title>DLB Loan Checker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container w-75">
+    <h1>Diamond Lending Bank</h1>
+    <h2>Check to see if you qualify!</h2>
+    <form id="registrationForm">
+
+        <div class="form-group">
+            <label for="salary">Salary (USD)</label>
+            <input name="salary" id="salary" type="number" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="creditScore">Credit Score</label>
+            <input name="creditScore" id="creditScore" type="number" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="jobMonths">Months at Job</label>
+            <input name="jobMonths" id="jobMonths" type="number" class="form-control">
+        </div>
+
+        <button class="btn btn-primary">Check</button>
+    </form>
+    <p id="message"></p>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="code.js"></script>
+
+</html>
