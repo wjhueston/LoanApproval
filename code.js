@@ -37,7 +37,7 @@ $(document).ready(function () {
             jobMonths:
                 {
                     min: "Not possible.",
-                    max: "You would have to be older than anyone else on the planet for this to be true.",
+                    max: "You would have to be older than anyone else on the planet for this to be true.    ",
                     required: "We need the number of months you've been at your current job."
                 }
         };
